@@ -129,8 +129,28 @@ p, ul {
 #contact > p {
   width: 30%;
   margin: 0 auto;
-  line-height: 2rem;
+  line-height: 3rem;
   font-size: 1.5rem;
 }
 
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 2.5rem;
+  background-color: #003B6D;
+}
+
+.footer-nav > h2 {
+  margin-bottom: 0;
+}
+
+.footer-nav > a {
+  font-size: 1.5rem;
+  color:#BDBDBD;
+}
+
+.footer-nav > a:hover {
+  color:#676767;
+}
 
